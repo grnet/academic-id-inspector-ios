@@ -9,4 +9,4 @@
     #import "AcademicID_CheckAppConstants.h"
 #endif
 
-//#define NSLog(args, ...)
+#define NSLog(args, ...)
