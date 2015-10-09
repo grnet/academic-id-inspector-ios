@@ -42,7 +42,7 @@
 		[appDelegate setUserName:[usernameField text]];
 		[appDelegate setPwdMD5Stored:[AcademicID_CheckViewController md5:[[NSString alloc] initWithFormat:@"%@", [passwordField text]]]];
 				
-		NSString *urlString = [[NSString alloc] initWithFormat:@"%@loadUser?username=%@&password=%@", appBaseURL, [usernameField text], [appDelegate pwdMD5Stored]];
+		NSString *urlString = [[NSString alloc] initWithFormat:@"%@loadUser", appBaseURL];
 		
         NSLog(@"urlString=%@",urlString);
 		
@@ -184,6 +184,20 @@
 	[loginActivityIndicator release];
 	[loadUserDictionary release];
     [super dealloc];
+}
+
+
+#pragma mark -
+#pragma mark UI Layout
+
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
+    return UIInterfaceOrientationPortrait;
+}
+
+
+- (BOOL)shouldAutorotate {
+    return NO;
 }
 
 
