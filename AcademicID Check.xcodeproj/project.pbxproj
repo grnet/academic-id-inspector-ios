@@ -333,7 +333,7 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = CE5JK5Y93Q;
+						DevelopmentTeam = NRR29DVLL8;
 					};
 				};
 			};
@@ -430,7 +430,7 @@
 					"$(PROJECT_DIR)/ZBarSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = gr.grnet.dev.AcademicID.Inspector;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.grnet.AcademicID.Inspector;
 				PRODUCT_NAME = Inspector;
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -467,7 +467,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gr.grnet.dev.AcademicID.Inspector;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.grnet.AcademicID.Inspector;
 				PRODUCT_NAME = Inspector;
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
